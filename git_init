@@ -12,7 +12,7 @@ Création projet en local => ouvrir avec GIT BASH
 
 	=> aller sur GitHub  et créer un 'repository'
 
-	- $ git remote ajouter l'origine https://github.com/jeanremi78/site_git.git
+	- $ git remote add origin https://github.com/pseudo/site_exemple.git
 
 	- $ git add --all (permet de tout selectionner)
 
