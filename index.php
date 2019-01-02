@@ -7,5 +7,9 @@
 <header>
 	<h1>Site Git test</h1>
 </header>
+
+<main>
+	corps du site git
+</main>
 </body>
 </html>
