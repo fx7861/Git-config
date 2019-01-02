@@ -8,6 +8,10 @@
 		<h1>Site Git test</h1>
 	</header>
 
+	<nav>
+		menu git
+	</nav>
+
 	<main>
 		corps du site git
 	</main>
