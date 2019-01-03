@@ -65,3 +65,32 @@ Création projet en local => ouvrir avec GIT BASH
 		-> on 'compare request'
 		-> on 'merge' 
 		-> tout le monde 'pull'
+
+
+_______________________________
+=> exemple d'ajout d'une liste:
+	=> $ git branch 'liste'
+	=> $ git checkout 'liste'
+
+	=> faire les modifs (editeur de texte => code)
+
+	=> $ git add --all
+	=> $ git commit -m 'correspondance des modifs'
+	=> $ git push origin 'liste'
+
+	=> retour sur github.com
+		=> 'compare and pull request'
+		=> 'confirm merge'
+
+	=> $ git checkout master
+	=> $ git pull origin master
+
+--------------------------------------------------------------------------
+
+=> Pour revoir toutes les modifications : 
+	$ git reflog
+
+=> revenir à une version antérieure : 
+	$ git reset --hard 12def5f
+	
+	
